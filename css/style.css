@@ -12,17 +12,10 @@ body {
     height: 100vh;
     background-color: black;
 }
-
+/* HEADER */
 header {
     height: 4vh;
     position: relative;
-}
-main {
-    height: 86vh;
-}
-footer {
-    background-color: grey;
-    height: 10vh;
 }
 .header-right {
     position: absolute;
@@ -44,4 +37,44 @@ footer {
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+/* MAIN */
+main {
+    height: 86vh;
+    width: 90vw;
+    margin: auto;
+    padding: 20px 0;
+}
+.columns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+.columns::-webkit-scrollbar { 
+    display: none;
+}
+.user{
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    position: relative;
+}
+.user-name {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    padding: 4px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    height: 10vh;
 }
