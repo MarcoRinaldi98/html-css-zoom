@@ -7,3 +7,41 @@
 }
 
 /* Regole CSS */
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: black;
+}
+
+header {
+    height: 4vh;
+    position: relative;
+}
+main {
+    height: 86vh;
+}
+footer {
+    background-color: grey;
+    height: 10vh;
+}
+.header-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+.box{
+    background-color: lightslategray;
+    line-height: 1.5em;
+    border-radius: 10px;
+    height: 60%;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
