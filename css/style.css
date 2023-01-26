@@ -72,9 +72,54 @@ main {
     background-color: rgba(128, 128, 128, 0.3);
 }
 
-
 /* FOOTER */
 footer {
-    background-color: #333;
+    background-color: rgb(34, 34, 34);
     height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tools{
+    display: flex;
+    padding: 0 10px;
+}
+.tool {
+    padding: 0 10px;
+    text-align: center;
+}
+.tool a {
+    text-decoration: none;
+    color: white;
+}
+.tool i {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tool h3 {
+    font-weight: 500;
+}
+.tools:last-child {
+    height: 100%;
+    width: 10vw;
+    background-color: rgb(74, 74, 74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tool .end-call {
+    font-size: 20px;
+    color: red;
+}
+.other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.other a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
 }
