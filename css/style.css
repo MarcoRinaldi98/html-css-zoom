@@ -58,7 +58,7 @@ main {
     display: none;
 }
 .user{
-    height: 200px;
+    height: 200px;s
     width: 300px;
     margin: 5px;
     position: relative;
@@ -83,6 +83,8 @@ footer {
 .tools{
     display: flex;
     padding: 0 10px;
+    height: 100%;
+    align-items: center;
 }
 .tool {
     padding: 0 10px;
@@ -93,11 +95,12 @@ footer {
     color: white;
 }
 .tool i {
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .tool h3 {
+    font-size: 20px;
     font-weight: 500;
 }
 .tools:last-child {
@@ -107,6 +110,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.green {
+    color: green;
 }
 .tool .end-call {
     font-size: 20px;
